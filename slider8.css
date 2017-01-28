@@ -511,8 +511,8 @@
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg');
 }
 @media only screen and (min-width: 600px) {
-.demo-2 .bg-img-1 {
-    background: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg') no-repeat -155px 0px;
+.demo-2 .bg-img-4 {
+    background: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg');
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
