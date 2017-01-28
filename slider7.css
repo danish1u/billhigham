@@ -23,17 +23,7 @@
 	top: 0;
 	left: 0;
 } 
-@media (max-width: 480px){
-.sl-slide,
-.sl-slides-wrapper,
-.sl-slide-inner {
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-}
-}
+
 .sl-slide {
 	z-index: 1;
 }
@@ -481,9 +471,9 @@
 .demo-2 .bg-img-1 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg');
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
 .demo-2 .bg-img-1 {
-    background: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg') no-repeat -155px 0px;
+    background: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg');
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -494,9 +484,9 @@
 .demo-2 .bg-img-2 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro.jpg');
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
 .demo-2 .bg-img-2 {
-    background: url('http://billhigham.co.uk/images/home/slides/seapro.jpg') no-repeat -155px 0px;
+    background: url('http://billhigham.co.uk/images/home/slides/seapro.jpg');
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -507,9 +497,9 @@
 .demo-2 .bg-img-3 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/mariner.jpg');
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
 .demo-2 .bg-img-3 {
-    background: url('http://billhigham.co.uk/images/home/slides/mariner.jpg') no-repeat -155px 0px;
+    background: url('http://billhigham.co.uk/images/home/slides/mariner.jpg') ;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -520,7 +510,7 @@
 .demo-2 .bg-img-4 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg');
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
 .demo-2 .bg-img-1 {
     background: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg') no-repeat -155px 0px;
     background-size: cover;
@@ -715,7 +705,8 @@
 	}
 
 	.demo-2 .sl-slider-wrapper {
-		height: 572px;
+		height: 380px;
+		width : 600;
 	}
 
 	.demo-2 .sl-slider h2 {
