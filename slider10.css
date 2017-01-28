@@ -470,64 +470,28 @@
 
 .demo-2 .bg-img-1 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg');
+	width:1200px;
+	height:572px;
 }
-@media only screen and (min-width: 600px) {
-.demo-2 .bg-img-1 {
-    background: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg');
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-	width: 600px;
-	height: 290px;
-}
-}
+
 .demo-2 .bg-img-2 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro.jpg');
+	width:1200px;
+	height:572px;
 }
-@media only screen and (min-width: 600px) {
-.demo-2 .bg-img-2 {
-    background: url('http://billhigham.co.uk/images/home/slides/seapro.jpg');
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-	width: 600px;
-	height: 290px;
-}
-}
+
 .demo-2 .bg-img-3 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/mariner.jpg');
+	width:1200px;
+	height:572px;
 }
-@media only screen and (min-width: 600px) {
-.demo-2 .bg-img-3 {
-    background: url('http://billhigham.co.uk/images/home/slides/mariner.jpg') ;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-	width: 600px;
-	height: 290px;
-}
-}
+
 .demo-2 .bg-img-4 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg');
+	width:1200px;
+	height:572px;
 }
-@media only screen and (min-width: 600px) {
-.demo-2 .bg-img-4 {
-    background: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg');
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-	width: 600px;
-	height: 290px;
-}
-}
+
 
 /* Animations for content elements */
 
@@ -724,5 +688,7 @@
 	.demo-2 .sl-slider blockquote {
 		font-size: 16px;
 	}
-
+	.demo-2 .bg-img-2{
+		background-size: 100% 100%;
+	}
 }
