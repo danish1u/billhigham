@@ -1,6 +1,6 @@
 .sl-slider-wrapper {
 	width: 1200px;
-	height: 450px;
+	height: 572px;
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
@@ -19,7 +19,7 @@
 .sl-slide-inner {
 	position: absolute;
 	width: 1200px;
-	height: 450px;
+	height: 572px;
 	top: 0;
 	left: 0;
 } 
@@ -121,7 +121,7 @@
 
 .demo-2 .sl-slider-wrapper {
 	width: 1200px;
-	height: 450px;
+	height: 572px;
 	overflow: hidden;
 	position: relative;
 }
@@ -665,7 +665,7 @@
 	}
 
 	.demo-2 .sl-slider-wrapper {
-		height: 500px;
+		height: 572px;
 	}
 
 	.demo-2 .sl-slider h2 {
