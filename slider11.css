@@ -472,24 +472,28 @@
 	background-image: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg');
 	width:1200px;
 	height:572px;
+	background-size: 100% 100%;
 }
 
 .demo-2 .bg-img-2 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro.jpg');
 	width:1200px;
 	height:572px;
+	background-size: 100% 100%;
 }
 
 .demo-2 .bg-img-3 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/mariner.jpg');
 	width:1200px;
 	height:572px;
+	background-size: 100% 100%;
 }
 
 .demo-2 .bg-img-4 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg');
 	width:1200px;
 	height:572px;
+	background-size: 100% 100%;
 }
 
 
