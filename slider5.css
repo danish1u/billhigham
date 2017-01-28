@@ -471,7 +471,7 @@
 .demo-2 .bg-img-1 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg');
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px) {
 .demo-2 .bg-img-1 {
     background: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg') no-repeat -155px 0px;
     background-size: cover;
@@ -484,7 +484,7 @@
 .demo-2 .bg-img-2 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro.jpg');
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px) {
 .demo-2 .bg-img-2 {
     background: url('http://billhigham.co.uk/images/home/slides/seapro.jpg') no-repeat -155px 0px;
     background-size: cover;
@@ -497,7 +497,7 @@
 .demo-2 .bg-img-3 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/mariner.jpg');
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px) {
 .demo-2 .bg-img-3 {
     background: url('http://billhigham.co.uk/images/home/slides/mariner.jpg') no-repeat -155px 0px;
     background-size: cover;
@@ -510,7 +510,7 @@
 .demo-2 .bg-img-4 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg');
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px) {
 .demo-2 .bg-img-1 {
     background: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg') no-repeat -155px 0px;
     background-size: cover;
