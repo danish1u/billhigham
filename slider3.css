@@ -471,6 +471,15 @@
 .demo-2 .bg-img-1 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg');
 }
+@media (max-width: 480px)
+.demo-2 .bg-img-1 {
+    background: url('http://billhigham.co.uk/images/home/slides/tohatsu.jpg') no-repeat -155px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
 .demo-2 .bg-img-2 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro.jpg');
 }
