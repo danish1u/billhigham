@@ -477,10 +477,10 @@
 .demo-2 .bg-img-3 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/mariner.jpg');
 }
-/*.demo-2 .bg-img-4 {
+.demo-2 .bg-img-4 {
 	background-image: url('http://billhigham.co.uk/images/home/slides/seapro-ribs.jpg');
 }
-*/
+
 /* Animations for content elements */
 
 .sl-trans-elems .deco{
