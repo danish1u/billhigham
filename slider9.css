@@ -479,6 +479,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
+	width: 600px;
+	height: 290px;
 }
 }
 .demo-2 .bg-img-2 {
@@ -492,6 +494,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
+	width: 600px;
+	height: 290px;
 }
 }
 .demo-2 .bg-img-3 {
@@ -505,6 +509,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
+	width: 600px;
+	height: 290px;
 }
 }
 .demo-2 .bg-img-4 {
@@ -518,6 +524,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
+	width: 600px;
+	height: 290px;
 }
 }
 
@@ -705,7 +713,7 @@
 	}
 
 	.demo-2 .sl-slider-wrapper {
-		height: 380px;
+		height: 290px;
 		width : 600;
 	}
 
