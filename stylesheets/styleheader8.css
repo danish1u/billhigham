@@ -838,10 +838,10 @@ color: #36cccd;
 }
 /* HIDE EBAY HEADER*/
 .gh-tbl, .gh-tbl2, .tb_v4bc {
-	display: none;
+	
 }
 .pagecontainer > p:nth-child(2) {
-	display: none!Important;
+	
 }
 #gh {
 	position: relative;
