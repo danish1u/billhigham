@@ -53,16 +53,15 @@
 	margin: 0 auto;
 }
 #CentralArea td.gallery {
-	    background: #fff none repeat scroll 0 0;
+	 background: #fff none repeat scroll 0 0;
     display: inline-block;
     float: left;
     height: 360px;
-    margin: 3px !important;
+    margin: 2.8px !important;
     padding: 10px;
-    width: 228px;
-    transition: all 0.5s ease-in-out 0s;
-    box-shadow: -1px 0px 5px 0px #ccc;
-    border: 1px solid #ccc;
+    width: 230px;
+		transition: all 0.5s ease-in-out 0s;
+}
 
 /*.grid {
 	width: 100%;
@@ -112,7 +111,7 @@
 #CentralArea .g-b {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	color: rgb(6, 84, 186);
+	color: #36cccd;
 	font-weight: bold;
 	display: inline-block;
 	text-align: center;
