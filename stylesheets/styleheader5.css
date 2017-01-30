@@ -117,7 +117,7 @@ a.linkopac:hover img {
 }
 #designer-logo {
 	float: left;
-	margin: 23px 0 18px 0;
+	margin: 24px 0 18px 50px;
 	padding: 0;
 	width: auto;
 }
@@ -147,11 +147,13 @@ a.linkopac:hover img {
 }
 
 #designer-menu {
-	width: 100%;
+	width: 1111px;
 	float: left;
 	margin: 0;
 	padding: 0;
 	position: relative;
+	margin-left: 50px; 
+	    border-top: 1px solid #3468b0;
 }
 #designer-menu ul {
 	list-style: none;
@@ -165,16 +167,17 @@ a.linkopac:hover img {
 	margin: 0;
 	padding: 0;
 	text-align: left;
+	background: url(http://auto-ems.com/ebay/images/sprater.jpg) right top no-repeat;
 }
 #designer-menu ul li a {
-	font-family: 'Open Sans', sans-serif;
-	    font-size: 13pt;
-	font-weight: normal;
-	color: #fff;
-	text-decoration: none;
-	margin: 0;
-	float: left;
-	    padding: 27px 28px;
+font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    float: left;
+    padding: 16px 19px;
     color: #fff !important;
     text-transform: uppercase;
     transition: all 0.5s;
