@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="http://www.efusionworld.com/estore/foreverlux/store/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/danish1u/billhigham/master/slider2.css" />
+    <!--Store CSS //Ends-->
+
+    <script src="http://www.efusionworld.com/estore/foreverlux/store/js/modernizr.custom.79639.js">
+    </script>
+    <script src="http://www.efusionworld.com/estore/foreverlux/store/js/jquery.ba-cond.min.js">
+    </script>
+    <script src="http://www.efusionworld.com/estore/foreverlux/store/js/jquery.slitslider.js">
+    </script>
+    <script src="http://www.efusionworld.com/estore/foreverlux/store/js/jquery.min.js">
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        document.Echo = document["standard" + "Write"] == null ? document["write"] : document["standard" + "Write"];
+        var include = function(path) {
+            path = "http://www.efusionworld.com/estore/foreverlux/store/js/" + path;
+            document.Echo('<' + 'script src="' + path + '"' + ' type="text\/javascript"><' + '\/script>');
+        };
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        include("jquery.min.js");
+    </script>
+    <script language="javascript" type="text/javascript">
+        include("modernizr.custom.79639.js");
+    </script>
+    <script language="javascript" type="text/javascript">
+        include("jquery.ba-cond.min.js");
+    </script>
+    <script language="javascript" type="text/javascript">
+        include("jquery.slitslider.js");
+    </script>
+    <script type="text/javascript">
+        $(function() {
+
+            var Page = (function() {
+
+                var $nav = $('#nav-dots > span'),
+                    slitslider = $('#slider').slitslider({
+                        onBeforeChange: function(slide, pos) {
+
+                            $nav.removeClass('nav-dot-current');
+                            $nav.eq(pos).addClass('nav-dot-current');
+
+                        }
+                    }),
+
+                    init = function() {
+
+                        initEvents();
+
+                    },
+                    initEvents = function() {
+
+                        $nav.each(function(i) {
+
+                            $(this).on('click', function(event) {
+
+                                var $dot = $(this);
+
+                                if (!slitslider.isActive()) {
+
+                                    $nav.removeClass('nav-dot-current');
+                                    $dot.addClass('nav-dot-current');
+
+                                }
+
+                                slitslider.jump(i + 1);
+                                return false;
+
+                            });
+
+                        });
+
+                    };
+
+                return {
+                    init: init
+                };
+
+            })();
+
+            Page.init();
+
+
+        });
+    </script>
+</head>
+<body>
+    <div id="banner-holder">
+        <div id="efusion-banner">
+            <div class="container demo-2">
+                <div id="slider" class="sl-slider-wrapper">
+                    <div class="sl-slider">
+                        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                            <div class="sl-slide-inner">
+                                <div class="bg-img bg-img-1"></div>
+                            </div>
+                        </div>
+                        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                            <div class="sl-slide-inner">
+                                <div class="bg-img bg-img-2"></div>
+                            </div>
+                        </div>
+                        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                            <div class="sl-slide-inner">
+                                <div class="bg-img bg-img-3"></div>
+                            </div>
+                        </div>
+                        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                            <div class="sl-slide-inner">
+                                <div class="bg-img bg-img-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /sl-slider -->
+                <nav id="nav-dots" class="nav-dots"><span class="nav-dot-current"></span><span></span><span></span><span></span></nav>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
