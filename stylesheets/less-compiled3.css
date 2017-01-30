@@ -4,14 +4,7 @@
     clear: both
 }
 
-p {
-    line-height: 2em
-}
 
-h1 {
-    font-size: 3em;
-    line-height: 40px
-}
 
 a {
     text-decoration: none;
@@ -107,7 +100,7 @@ wrapper {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(44, 62, 80, .92);
+    background: rgba(23, 74, 131, 0.64);;
     padding: 10px;
     text-align: center;
     -webkit-opacity: 0;
