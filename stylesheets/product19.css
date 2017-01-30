@@ -53,14 +53,15 @@
 	margin: 0 auto;
 }
 #CentralArea td.gallery {
-	 background: #fff none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     display: inline-block;
     float: left;
     height: 360px;
     margin: 2.8px !important;
     padding: 10px;
     width: 230px;
-		transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: 0px 0px 5px 0px #ccc;
 }
 
 /*.grid {
@@ -111,7 +112,7 @@
 #CentralArea .g-b {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	color: #36cccd;
+	color: #2386c0;
 	font-weight: bold;
 	display: inline-block;
 	text-align: center;
@@ -284,7 +285,6 @@ td#CentralArea div.dynpg { background: url("http://www.ebay-store-designer.com/e
 	font-size: 13px !important;
 	font-weight: bold !important;
 	font-family: Arial, Helvetica, sans-serif !important;
-	float: left;
 	margin: 1px 0 0 3px;
 }
 .pgbc .pager .next .enabled {
@@ -292,7 +292,6 @@ td#CentralArea div.dynpg { background: url("http://www.ebay-store-designer.com/e
 	font-size: 13px !important;
 	font-weight: bold !important;
 	font-family: Arial, Helvetica, sans-serif !important;
-	float: left;
 	margin: 1px 3px 0 0;
 }
 .pgbc .pager .pages a {
@@ -331,7 +330,7 @@ td#CentralArea div.dynpg { background: url("http://www.ebay-store-designer.com/e
 	margin: 0 auto;
 }
 .dynpg span.pipe {
-	margin:23px 2px 0 0!important;
+	margin:11px 2px 0 0!important;
 	padding: 0;
 	color: #8a8a8a;
 	line-height: 15px;
