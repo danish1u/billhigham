@@ -159,7 +159,7 @@ span.pdmt .cur {
 	color: #000000;
 	cursor: pointer;
 	margin-left: 0.4em;
-	background-image: url(../images/arrow.png);
+	background-image: url('http://www.ebay-store-designer.com/estore/daxej/store/images/arrow.png');
 	background-repeat: no-repeat;
 	background-position: right center;
 	padding-right: 12px;
@@ -199,7 +199,7 @@ div.fpcc {
 	line-height: 35px;
 	border-radius: 4px 4px 0 0;
 	border-bottom: 0px none #1d1d1d;
-	background-image: url(../images/brd-bottom.png);
+	background-image: url('http://www.ebay-store-designer.com/estore/daxej/store/images/brd-bottom.png');
 	background-repeat: repeat-x;
 	background-position: left bottom;
 	border-top-width: 0px;
@@ -228,7 +228,7 @@ div.fpcc div {
 	border: 0 none;
 	margin: 0px;
 	padding: 0 15px;
-	background: url(../images/brd-bottom.png) repeat-x left bottom;
+	background: url('http://www.ebay-store-designer.com/estore/daxej/store/images/brd-bottom.png') repeat-x left bottom;
 	height: 35px;
 	line-height: 35px;
 }
