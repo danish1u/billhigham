@@ -1,0 +1,729 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+
+/* CSS Document */
+
+#CentralArea {
+    vertical-align: top !important;
+    padding-top: 0;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    right: 0px;
+    margin: 0px;
+    background-color: #fff;
+    border: 0px none #D2D2D2;
+    border-radius: 0px;
+    position: relative;
+    float: left;
+}
+
+#CentralArea div.v4stabl, #CentralArea div.v4stabl a {
+    color: #333333;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -15px 0 0 0;
+    padding: 0 0 0 0;
+    border: none;
+    text-decoration: none;
+}
+
+.v4stabl b {
+    color: #333333;
+}
+
+#CentralArea div.dynpg {
+    margin: 0px !important;
+    padding: 0px !important;
+    border: 0 none !important;
+}
+
+#CentralArea td.r3_t b, #CentralArea td.r3_t i, #CentralArea td.r3_bl b, #CentralArea td.r3_bl i {
+    display: none;
+}
+
+#CentralArea td.r3_t {
+    display: none;
+}
+
+#CentralArea td.r3_bl {
+    display: none;
+}
+
+#CentralArea td.r3_c {
+    background-image: none;
+    border: none 0px #000000;
+    color: #000;
+    padding: 0px !important;
+}
+
+.image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#CentralArea td.gallery {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    float: left;
+    height: 360px;
+    margin: 2.8px !important;
+    padding: 10px;
+    width: 230px;
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+
+/*.grid {
+	width: 100%;
+	border-collapse: collapse;
+}*/
+
+#CentralArea table.gallery td.picture {
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    width: 218px;
+    height: 195px;
+    background: #fff;
+}
+
+#CentralArea td.gallery table tr td {
+    display: list-item;
+    text-align: center;
+    list-style: none;
+    margin: 0 0px;
+}
+
+#CentralArea table.gallery table.fixed {
+    background: rgba(0, 0, 0, 0) url("../images/buy-now.png") no-repeat scroll center 40px;
+    height: 120px;
+    width: 100%;
+}
+
+#CentralArea table.fixed table tr td {
+    display: list-item;
+    text-align: center;
+}
+
+.fpcc span.keywordClass {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #223b59;
+    background: none;
+    font-size: 10pt;
+}
+
+
+/*Product Title*/
+
+#CentralArea td.r3_c a {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 38px;
+}
+
+
+/*Product PRICE*/
+
+#CentralArea .g-b {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #00509d;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    text-decoration: none;
+    width: auto;
+}
+
+span.pdmt .label {
+    color: #000000;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/*change time left*/
+
+div.clr.time2 {
+    color: #616161;
+    display: table;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9pt;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+/*Buy It Now image*/
+
+.fixed img {
+    background: none;
+    margin: 5px 0;
+    padding: 0;
+    display: none;
+}
+
+
+/*Product Counts*/
+
+.fpcc .countClass {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    color: #223b59;
+    font-size: 14pt;
+}
+
+
+/*View as*/
+
+span.pdmt .cur {
+    color: #000000;
+    cursor: pointer;
+    margin-left: 0.4em;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 12px;
+    padding-left: 5px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+span.pdmt .cur img {
+    display: none;
+}
+
+
+/*Shipping to OR Postage*/
+
+span#msg {
+    margin: -29px 0 0 0;
+    display: none;
+}
+
+span#msg a {
+    color: #000!Important;
+}
+
+
+/*View as bar*/
+
+.v4stabl {
+    padding-right: 10px;
+    width: auto;
+    position: absolute;
+    text-align: right;
+    right: 1%;
+    top: 30px;
+}
+
+.v4stabl a {
+    color: #333333 !important;
+}
+
+div.fpcc {
+    clear: both;
+    margin: 0;
+    padding: 0 15px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 0px none #1d1d1d;
+    background-image: url(../images/brd-bottom.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+div.fpcc div {
+    margin-top: 0px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.ctrlbr {
+    clear: left;
+    border: 0 none;
+    margin: 0px;
+    padding: 0 15px;
+    background: url(../images/brd-bottom.png) repeat-x left bottom;
+    height: 35px;
+    line-height: 35px;
+}
+
+
+/*Shipping Bar*/
+
+.cmpBr {
+    height: 15px;
+    background-color: transparent !important;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.cmpBr {
+    height: auto!important;
+    background-repeat: repeat;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none !important;
+    border-left-style: none;
+}
+
+.grid td.left {
+    border: none;
+}
+
+div.itemseparator {
+    border: 0 none;
+}
+
+
+/*PAGINATION*/
+
+table.pgbc {
+    height: 40px;
+    border: 0px none #b4b4b4;
+    padding: 0px;
+    border-radius: 0 0 4px 4px;
+    background-image: url(../images/brd-bottom.png);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-color: transparent !important;
+}
+
+td#CentralArea div.dynpg {
+    background: url(../images/brd-bottom.png) repeat-x left bottom;
+}
+
+.dynpg span.page a {
+    font-weight: bold;
+    white-space: nowrap;
+    color: #8a8a8a !important;
+}
+
+.pgbc .pager .prev .disabled {
+    color: #333 !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    float: left;
+    margin: 1px 0 0 3px;
+}
+
+.pgbc .pager .next .enabled {
+    color: #333 !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    float: left;
+    margin: 1px 3px 0 0;
+}
+
+.pgbc .pager .pages a {
+    color: #333 !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    float: left;
+    margin: 1px 5px 0 5px;
+}
+
+.pgbc .pager .pages .pipe {
+    color: #333;
+    float: left;
+}
+
+.pages {
+    float: left;
+    margin: 0 0px 0 3px !important;
+}
+
+.pgbc {
+    padding: 0px 10px;
+    border: 0px none;
+    background-color: transparent !important;
+}
+
+.dynpg span.page {
+    font-weight: bold;
+    white-space: nowrap;
+    color: #333;
+    font-size: 13px;
+    margin: 0 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.m {
+    width: 65%;
+}
+
+.dynpg table.pager {
+    margin: 0 auto;
+}
+
+.dynpg span.pipe {
+    margin: 2px 3px 0 0!important;
+    padding: 0;
+    color: #8a8a8a;
+    line-height: 3px;
+}
+
+.dynpg span.page a {
+    font-weight: bold;
+    white-space: nowrap;
+    color: #1e1e1e !important;
+}
+
+.dynpg .r .form label {
+    padding-top: 4px;
+    vertical-align: baseline;
+    color: #333 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px !important;
+    font-weight: normal !important;
+    text-transform: inherit !important;
+    margin: 0 0 0 40px;
+}
+
+.dynpg .r .form {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    white-space: nowrap;
+}
+
+.dynpg .prev {
+    background-image: url('http://www.ebay-store-designer.com/estore/daxej/store/images/prev.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.dynpg .prev img {
+    visibility: hidden;
+    background-image: url('http://www.ebay-store-designer.com/estore/daxej/store/images/prev.png');
+    background-repeat: no-repeat;
+}
+
+.dynpg .prev a {
+    color: #8a8a8a !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    text-transform: inherit !important;
+}
+
+.dynpg .next {
+    background-image: url(../images/next.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.dynpg .next img {
+    visibility: hidden;
+}
+
+.dynpg .next a {
+    color: #8a8a8a !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    text-transform: inherit !important;
+}
+
+.pages a {
+    color: #8a8a8a !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    text-transform: inherit !important;
+}
+
+#q_10 {
+    width: 33px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    background-image: url(../images/go.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: transparent !important;
+    position: relative;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+.dynpg span.pipe {
+    margin: 0 0;
+    padding: 0;
+    color: #1e1e1e;
+}
+
+
+/*postage text*/
+
+table.gallery div.clearFullDiv {
+    clear: both;
+    width: 225px;
+    font-size: 11px;
+    margin: 0 auto !Important;
+    padding: 0!Important;
+    display: none;
+}
+
+span.fshp {
+    color: #1e1e1e;
+    font-family: Verdana;
+    font-weight: bold;
+    white-space: normal;
+    font-size: x-small;
+}
+
+table.gallery .mi {
+    min-height: 1px;
+    padding-top: 0px;
+    text-align: left;
+    display: none;
+}
+
+.rs-pview {
+    border: 0 none;
+    margin: 5px 10px;
+    padding: 0;
+}
+
+
+/* List View CSS Starts */
+
+.li {
+    border-bottom: 1px solid #cdcdcd;
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+}
+
+.li div.ttl {
+    background-color: inherit;
+    width: 300px;
+    max-height: 65px text-align: left;
+}
+
+.li td.trs, .li td.pay {
+    width: 0;
+}
+
+.li td.prices {
+    width: 70px !important;
+    text-align: left !important;
+    vertical-align: middle;
+    display: table-cell!important;
+}
+
+.li td.fshp, .li td.prices span.fshp, .li td.fshp span.fshp, .li td.ship span.fshp {
+    display: none;
+    color: #f80;
+    font-family: Verdana;
+    font-weight: bold;
+    white-space: normal;
+    font-size: x-small;
+    text-align: left;
+    float: left;
+    position: relative;
+    left: 0px;
+}
+
+.li tr td {
+    vertical-align: middle;
+}
+
+
+/*----------------*/
+
+div.cmpb {
+    background-color: transparent !important;
+    background-repeat: repeat !important;
+    padding: 5px 0;
+    margin-bottom: 0px !important;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none !important;
+    border-right-style: none;
+    border-bottom-style: none !important;
+    border-left-style: none;
+}
+
+
+/*-----------------*/
+
+#CentralArea table.gallery table.fixed div.time2 span.label {
+    visibility: visible !important;
+}
+
+table.fixed td span.bin {}
+
+.fixed span.bids {
+    visibility: hidden !important;
+    font-size: 0px;
+    line-height: 0px;
+    color: transparent !important;
+    text-decoration: none;
+}
+
+#CentralArea div.clr .time2 td span.label {
+    visibility: visible !important;
+}
+
+table.fixed td span.label {
+    visibility: hidden !important;
+    height: 0px !important;
+}
+
+#CentralArea table.gallery div.ttl {
+    overflow: hidden;
+    margin: 10px 0;
+    height: 54px;
+}
+
+table.gallery div.subtitle {
+    display: none !important;
+}
+
+.r3 {
+    background: none repeat scroll 0 0;
+    border: 0 none;
+    width: 965px;
+    margin-left: 15px;
+}
+
+.r3_cm {
+    padding: 0 !important;
+}
+
+.ii {
+    display: none;
+}
+
+.rs_box {
+    border: 0 none !important;
+}
+
+.li td.ship {
+    display: none !important;
+}
+
+table.nol td.picture {
+    width: 140px !important;
+    text-align: center;
+}
+
+.cmpb td.shipping {
+    display: none !important
+}
+
+.cmpb td.prices {
+    text-align: center !important;
+    width: 80px !important;
+}
+
+.cmpb td.time {
+    width: 90px !important
+}
+
+.fpcc .matchClass {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.gallery {
+    width: 100%;
+    border-spacing: 0;
+}
+
+table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
+    color: #ca343f;
+}
+
+table.gallery table.fixed span.oriprs, table.gallery table.prices span.oriprs {
+    font-size: 13px;
+}
+
+table.gallery td.picture div.image {
+    width: 90% !important;
+}
+
+.bpmsg .title {
+    color: #000;
+    font-family: Arial;
+    font-size: small;
+    font-weight: bold;
+}
+
+div.disct {
+    color: #f91a0e;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+.picture.g-nav.center.left>a {
+    color: #000 !important;
+}
+
+.prices.g-nav.center>a {
+    color: #000 !important;
+}
+
+.time.g-nav.center.right>a {
+    color: #000 !important;
+}
+
+.li td.bids img {
+    display: block;
+    float: left;
+    padding: 19px 0 14px !important;
+}
+
+.mi-l {
+    display: none;
+}
+
+.dynamic .dynSgCol {
+    display: none;
+}
+
+.anchors {
+    display: none;
+}
