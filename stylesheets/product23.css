@@ -85,7 +85,7 @@
 }
 #CentralArea table.gallery table.fixed {
 	background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/danish1u/billhigham/master/images/Buy%20it%20now.png") no-repeat scroll center 30px;
-    height: 210px;
+    height: 104px;
     width: 100%;
 }
 #CentralArea table.fixed table tr td {
@@ -138,6 +138,7 @@ div.clr.time2 {
     margin: 0;
     text-align: center;
     width: 100%;
+	    padding-top: 32px;
 }
 /*Buy It Now image*/
 .fixed img {
@@ -358,13 +359,13 @@ td#CentralArea div.dynpg { background: url("http://www.ebay-store-designer.com/e
 
 }
 .dynpg .prev {
-	background-image: url("http://www.ebay-store-designer.com/estore/daxej/store/images/prev.png");
+	background-image: url("https://raw.githubusercontent.com/danish1u/billhigham/master/images/new%20previous.png");
 	background-repeat: no-repeat;
 	background-position: left center;
 }
 .dynpg .prev img {
 	visibility: hidden;
-	background-image:  url("http://www.ebay-store-designer.com/estore/daxej/store/images/prev.png");
+	background-image:  url("https://raw.githubusercontent.com/danish1u/billhigham/master/images/new%20previous.png");
 	background-repeat: no-repeat;
 }
 .dynpg .prev a {
@@ -374,7 +375,7 @@ td#CentralArea div.dynpg { background: url("http://www.ebay-store-designer.com/e
 	text-transform: inherit !important;
 }
 .dynpg .next {
-	background-image: url("http://www.ebay-store-designer.com/estore/daxej/store/images/next.png");
+	background-image: url("https://raw.githubusercontent.com/danish1u/billhigham/master/images/new%20next.png");
 	background-repeat: no-repeat;
 	background-position: right center;
 }
@@ -398,7 +399,7 @@ td#CentralArea div.dynpg { background: url("http://www.ebay-store-designer.com/e
 	height: 22px;
 	background-color: transparent;
 	border: none;
-	background-image: url("http://www.ebay-store-designer.com/estore/daxej/store/images/go.png");
+	background-image: url("https://raw.githubusercontent.com/danish1u/billhigham/master/images/go1.png");
 	background-repeat: no-repeat;
 	background-position: center top;
 	color: transparent !important;
