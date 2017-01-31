@@ -231,7 +231,10 @@ a.linkopac:hover img {
 
 .pic-title {
     color: white;
-    padding-top: 51px;
+    padding-top: 100px;
+}
+.bottom-to-top a{
+        text-decoration: none;
 }
 
 .hassle-icon {
