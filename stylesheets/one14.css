@@ -926,18 +926,20 @@ table {
 
 /* HIDE EBAY HEADER*/
 
-.gh-tbl, .gh-tbl2, .tb_v4bc {}
-
-.pagecontainer>p:nth-child(2) {}
-
+.gh-tbl, .gh-tbl2, .tb_v4bc {
+	display: none;
+}
+.pagecontainer > p:nth-child(2) {
+	display: none!Important;
+}
 #gh {
-    position: relative;
-    min-width: 320px;
-    margin: 0;
-    padding: 15px 0 10px 0 !important;
-    white-space: nowrap;
-    background: #000;
-    border: none!Important;
+	position: relative;
+	min-width: 320px;
+	margin: 0;
+	padding: 15px 0 10px 0 !important;
+	white-space: nowrap;
+	background: #000;
+	border: none!Important;
 }
 
 
