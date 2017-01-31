@@ -1,5 +1,5 @@
 @charset "utf-10";
-@import url('https://cdn.rawgit.com/danish1u/billhigham/master/stylesheets/product27.css');
+@import url('https://cdn.rawgit.com/danish1u/billhigham/master/stylesheets/product29.css');
 @import url('https://cdn.rawgit.com/danish1u/rick/master/template/custom-home1.css');
 @import url('http://www.ebay-store-designer.com/estore/daxej/store/css/custompage.css');
 @import url('https://cdn.rawgit.com/danish1u/rick/master/template/search3.css');
@@ -15,7 +15,6 @@ body {
 }
 
 .esdp {
-    width: 1200px;
     margin: auto;
 }
 
@@ -48,11 +47,15 @@ a.linkopac:hover img {
     position: relative;
     display: inline-block;
     margin-top: 14px;
+    background: white;
+
 }
 
 .designer-background {
     padding: 0;
     width: 100%;
+        background: rgba(128, 128, 128, 0.08);
+
 }
 
 .designer-content {
@@ -922,8 +925,7 @@ table {
   width: 50%;
   margin: auto;
 border-top: 0.5px solid rgba(128, 128, 128, 0.23);
- padding-top: 3px;
-  padding-bottom: 10px;
+
 }
 #designer-footer #designer-designer a {
     color: #2386c0;
