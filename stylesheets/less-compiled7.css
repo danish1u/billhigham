@@ -79,7 +79,6 @@ wrapper {
     max-width: 100%;
     position: relative;
     overflow: hidden;
-    margin: 10px;
     display: inline-block;
     animation: anima 2s;
     -webkit-animation: anima 2s;
