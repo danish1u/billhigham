@@ -4,8 +4,6 @@
     clear: both
 }
 
-
-
 a {
     text-decoration: none;
     color: #4a5c6e
@@ -87,7 +85,9 @@ wrapper {
     -webkit-animation: anima 2s;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+        margin-top: 20px;
+    margin-bottom: 23px;
 }
 
 .pic-3d {
