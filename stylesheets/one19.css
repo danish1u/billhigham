@@ -1,5 +1,5 @@
 @charset "utf-10";
-@import url('https://cdn.rawgit.com/danish1u/billhigham/master/stylesheets/product23.css');
+@import url('https://cdn.rawgit.com/danish1u/billhigham/master/stylesheets/product27.css');
 @import url('https://cdn.rawgit.com/danish1u/rick/master/template/custom-home1.css');
 @import url('http://www.ebay-store-designer.com/estore/daxej/store/css/custompage.css');
 @import url('https://cdn.rawgit.com/danish1u/rick/master/template/search3.css');
@@ -1026,3 +1026,10 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
                 border: 1px grey solid;
             }
             /*---And tabs---*/
+.stBadge{
+    display: none;
+}
+
+#glbfooter {
+    display: none;
+}
