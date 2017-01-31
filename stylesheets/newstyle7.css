@@ -900,6 +900,7 @@ table {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+        padding-top: 10px;
 }
 
 #designer-footer #designer-copy span {
@@ -914,10 +915,11 @@ table {
     font-size: 14px;
     font-weight: normal;
     margin: 0;
-    padding: 3px 6px;
+    padding: 3px 0px;
     text-align: center;;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    padding-bottom: 47px;
 
 }
 .placeholder{
