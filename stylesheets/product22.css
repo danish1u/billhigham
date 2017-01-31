@@ -56,7 +56,7 @@
     background: #fff none repeat scroll 0 0;
     display: inline-block;
     float: left;
-    height: 360px;
+    height: 376px;
     margin: 2.8px !important;
     padding: 10px;
     width: 230px;
@@ -84,8 +84,8 @@
 	margin: 0 0px;
 }
 #CentralArea table.gallery table.fixed {
-	background: rgba(0, 0, 0, 0) url("../images/buy-now.png") no-repeat scroll center 40px;
-    height: 120px;
+	background: rgba(0, 0, 0, 0) url("https://raw.githubusercontent.com/danish1u/billhigham/master/images/Buy%20it%20now.png") no-repeat scroll center 30px;
+    height: 210px;
     width: 100%;
 }
 #CentralArea table.fixed table tr td {
@@ -307,7 +307,6 @@ td#CentralArea div.dynpg { background: url("http://www.ebay-store-designer.com/e
 	float: left;
 }
 .pages {
-	float: left;
 	margin: 0 0px 0 3px !important;
 }
 .pgbc {
@@ -330,7 +329,7 @@ td#CentralArea div.dynpg { background: url("http://www.ebay-store-designer.com/e
 	margin: 0 auto;
 }
 .dynpg span.pipe {
-	margin:11px 2px 0 0!important;
+	margin:2px 2px 0 0!important;
 	padding: 0;
 	color: #8a8a8a;
 	line-height: 15px;
@@ -348,7 +347,7 @@ td#CentralArea div.dynpg { background: url("http://www.ebay-store-designer.com/e
 	font-size: 13px !important;
 	font-weight: normal !important;
 	text-transform: inherit !important;
-	margin: 0 0 0 40px;
+	
 }
 .dynpg .r .form {
 	padding-bottom: 0px;
