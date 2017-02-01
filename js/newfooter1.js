@@ -8,13 +8,13 @@ var $w = jQuery.noConflict();
 	$w(".designer-background table:eq(1)").addClass("designer-content");
 
 	//Getting and Setting Store Categories
-	if($w("#designer-categories").length > 0) {
-		if($w("#LeftPanel .lcat").length > 0) {
-			$w("#designer-categories").html($w("#LeftPanel .lcat").html());
+	
+if($V("#pst-categories").length > 0) {
+		if($V("#LeftPanel .lcat").length > 0) {
+			$V("#pst-categories").html($V("#LeftPanel .lcat").html());
 		}
-		$w("#designer-categories ul[class=lev1]").find("li:last").addClass("designer-lastitem");
+		$V("#pst-categories ul[class=lev1]").find("li:last").addClass("pst-lastitem");
 	}
-
 //Search Box
 	var stxt = $("#estore-search #estore-input").find("input[class=v4sbox]").val();
 	$("#estore-search #estore-input").find("input[class=v4sbox]").focus(function(){
