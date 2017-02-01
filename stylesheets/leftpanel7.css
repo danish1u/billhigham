@@ -65,6 +65,7 @@
 	display:block;
 	background-color:#fff;
 	font-size:12px;
+	margin-top: -11px;
 }
 #pst-categories ul.lev2 > li:before{
     content: '-';
