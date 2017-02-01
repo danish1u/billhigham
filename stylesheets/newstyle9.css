@@ -494,6 +494,7 @@ a.linkopac:hover img {
 #LeftPanel * {
     padding: 0px;
     margin: 0px;
+        padding-top: 11px;
 }
 
 #LeftPanel img {
