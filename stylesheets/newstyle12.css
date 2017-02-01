@@ -702,7 +702,7 @@ table {
     transition: .3s all ease-in-out;
 }
 .sign-up {
-    width: 137px;
+   
     height: 35px;
     margin: 18px 0 0;
 }
@@ -724,7 +724,9 @@ table {
     float: left;
     padding: 0;
     position: relative;
-    width: 350px;
+    width: 288px;
+    padding-left: 59px;
+
 }
 
 #designer-footer #designer-footernav ul {
