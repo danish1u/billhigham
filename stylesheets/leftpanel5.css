@@ -37,7 +37,7 @@
 	text-decoration: none;
 	font-size:14px;
 }
-#pst-categories ul.lev1 li a:hover {color:#e50000;}
+#pst-categories ul.lev1 li a:hover {color:#2d68a2;}
 #pst-categories ul.lev1 li span{
 	color:#2d68a2;
 }
@@ -77,7 +77,7 @@
 	color: #000;
 	text-decoration: none;
 }
-#pst-categories ul.lev2 li a:hover {color:#e50000;}
+#pst-categories ul.lev2 li a:hover {color:#2d68a2;}
 #pst-categories ul.lev2 li span{
 	color:#2d68a2;
 }
