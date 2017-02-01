@@ -55,7 +55,7 @@
     background: #fff none repeat scroll 0 0;
     display: inline-block;
     float: left;
-    height: 376px;
+    height: 360px;
     margin: 2.8px !important;
     padding: 10px;
     width: 230px;
@@ -515,8 +515,9 @@ table.fixed td span.label {
 }
 #CentralArea table.gallery div.ttl {
 	overflow: hidden;
-	margin: 10px 0;
-	height: 54px;
+	    margin: 5px 0;
+    height: 41px;
+    padding: 6px;
 }
 table.gallery div.subtitle {
 	display: none !important;
