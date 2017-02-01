@@ -46,7 +46,8 @@ a.linkopac:hover img {
     padding: 0;
     position: relative;
     display: inline-block;
-    margin-top: 14px;
+    margin-top: 6px;
+    padding-top: 14px;
     background: white;
 
 }
