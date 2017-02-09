@@ -132,6 +132,20 @@ a.linkopac:hover img {
     margin-right: -28px;
     
 }
+  .searchbox {
+        padding: 12px;
+        left: 2px;
+        line-height: 62px;
+        font-size: 14px;
+        font-family: arial;
+        display: block;
+
+      }
+      .submitbox {
+        display: block;
+        float: right;
+      }
+
 
 .search .submitbox {
     width: 36px !important;
