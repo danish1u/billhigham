@@ -121,13 +121,14 @@ a.linkopac:hover img {
 }
 
 .search input.searchbox, .search input.submitbox {
-    width: 185px;
+        width: 185px;
     border: none;
     height: 34px;
     background: none;
     vertical-align: middle;
-    margin-top: 9px;
+    margin-top: -39px;
     color: white;
+    
 }
 
 .search .submitbox {
