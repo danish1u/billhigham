@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* LEFT SIDE STARTS */
+#pst-left {}
+.pst-head {
+	height:26px;
+	line-height:22px;
+	text-align:left;
+	color:#fff;
+	background-color:#2d68a2;
+	font-size:13px;
+	text-indent:22px;
+	font-weight:700;
+}
+#pst-categories {margin-bottom:26px;}
+#pst-categories ul.lev1 {
+	list-style: none;
+    margin-top: 0px;
+    margin-left: -40px;
+}
+#pst-categories ul.lev1 li {
+	height: 31px;
+	text-align: left;
+	text-indent: 38px;
+	overflow: hidden;
+	display: block;
+	background-color: #FFF;
+	border: 1px solid #eaeaea;
+	border-top: none;
+
+}
+#pst-categories ul.lev1 li a {
+	color: #000;
+	text-decoration: none;
+	font-size:14px;
+}
+#pst-categories ul.lev1 li a:hover {color:#2d68a2;}
+#pst-categories ul.lev1 li span{
+	color:#2d68a2;
+}
+#pst-categories ul.lev1 > li:before{
+    font-family: FontAwesome;
+    content: '\f105';
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    left: -10px;
+}
+#pst-categories ul.lev1 > li > span.cnt:before{
+	display:none;
+}
+
+#pst-categories ul.lev2 {
+	list-style:none;
+}
+#pst-categories ul.lev2 li {
+	height: 26px;
+	line-height: 15px;
+	text-align: left;
+	text-indent: 50px;
+	overflow: hidden;
+	display:block;
+	background-color:#fff;
+	font-size:12px;
+	margin-top: -11px;
+}
+#pst-categories ul.lev2 > li:before{
+    content: '-';
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    left: -5px;
+}
+#pst-categories ul.lev2 li a {
+	color: #000;
+	text-decoration: none;
+}
+#pst-categories ul.lev2 li a:hover {color:#2d68a2;}
+#pst-categories ul.lev2 li span{
+	color:#2d68a2;
+}
+
+#LeftPanel span.cnt {
+	display:none;
+}
+
+.left-promo {
+}
+/* LEFT SIDE END */
