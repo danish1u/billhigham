@@ -1,0 +1,143 @@
+            /*---tabs---*/
+
+      *:after, *:before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .clearfix:before, .clearfix:after {
+        content: " ";
+        display: table;
+      }
+      .clearfix:after {
+        clear: both;
+      }
+      .tab_container {
+        width: 921px;
+            margin-top: 10px;
+        position: relative;
+                  float:right;
+        
+      }
+      input, section {
+        clear: both;
+        padding-top: 10px;
+        display: none;
+      }
+      label {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        float: left;
+        width: 125px;
+        padding: 0.5em;
+        line-height: 21px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        background: #2d68a2;
+        margin-right: 1px;
+        font-weight: bold;
+                  cursor:pointer;
+                      transition: all 0.7s ease-in-out;
+      }
+      label:hover {
+        background: #fff;
+        opacity: 0.9;
+        color: #2d68a2;
+      }
+      #tab1:checked~#content1, #tab2:checked~#content2, #tab3:checked~#content3, #tab4:checked~#content4, #tab5:checked~#content5 {
+        display: block;
+        padding: 20px;
+        background: #fff;
+        color: #999;
+                  height: 400px;
+      }
+      .tab_container .tab-content h3 {
+        text-align: left;
+        color: black;
+      }
+      .tab_container [id^="tab"]:checked+label {}
+      .tab_container [id^="tab"]:checked+label .fa {
+        color: #F9B419;
+      }
+      label .fa {
+        font-size: 1.3em;
+        margin: 0 0.4em 0 0;
+      }
+      /*Media query*/
+
+      @media only screen and (max-width: 930px) {
+        label span {
+          font-size: 14px;
+        }
+        label .fa {
+          font-size: 14px;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        label span {
+          display: none;
+        }
+        label .fa {
+          font-size: 16px;
+        }
+        
+        .bounceInLeft {
+          -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+        }
+        @-webkit-keyframes bounceInLeft {
+          0% {
+            opacity: 0;
+            -webkit-transform: translateX(-30px);
+          }
+          60% {
+            opacity: 1;
+            -webkit-transform: translateX(0px);
+          }
+          80% {
+            -webkit-transform: translateX(0px);
+
+          }
+          100% {
+            -webkit-transform: translateX(0);
+          }
+          @keyframes bounceInLeft {
+            0% {
+              opacity: 0;
+              transform: translateX(-30px);
+            }
+            60% {
+              opacity: 1;
+              transform: translateX(0px);
+            }
+            80% {
+              transform: translateX(0px);
+            }
+            100% {
+              transform: translateX(0);
+            }
+            .bounceInLeft {
+              -webkit-animation-name: bounceInLeft;
+              animation-name: bounceInLeft;
+
+            }
+            .bounceInLeft p {
+              padding-left: 15px;
+              padding-right: 10px;
+              font-family: 'Lato', sans-serif;
+              line-height: 1.2em;
+              text-align: justify;
+              font-size: 13px;
+              color: black ;
+            }
+            .mainbox {
+              width: 898px;
+              height: auto;
+              position: relative;
+              margin: 0 auto;
+              background-color: #fff;
+              margin-left: 237px;
+              border: 1px grey solid;
+            }
+            /*---And tabs---*/
