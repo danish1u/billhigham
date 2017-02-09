@@ -85,7 +85,10 @@ wrapper {
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-      margin: 11px;
+    margin: 9px;
+margin-top: 19px;
+margin-bottom: 16px;
+    
 }
 
 .pic-3d {
