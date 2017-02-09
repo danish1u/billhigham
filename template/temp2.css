@@ -1100,7 +1100,7 @@ table.gallery table.fixed span.disct, table.gallery table.prices span.disct {
   padding-left: 15px;
   padding-right: 10px;
   font-family: 'Lato', sans-serif;
-  line-height: 1em;
+  line-height: 1.5em;
   text-align: justify;
-  font-size: 13px;
+  font-size: 14px;
 }
