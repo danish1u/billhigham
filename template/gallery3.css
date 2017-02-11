@@ -1,8 +1,9 @@
 .slider{
     width: 921px;
-    height: 720px;
+    height: auto;
     display: inline-block;
     padding-top: 10px;
+    padding-bottom:10px;
 }
 
 .designer-listingarea-box  {
@@ -11,7 +12,7 @@
     text-align: center;
 }
 #img-gallery .big-1 {
-      width: 527px;
+      max-width: 527px;
     text-align: center;
     float: left;
     margin: 0 11px;
